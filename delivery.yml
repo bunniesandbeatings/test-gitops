@@ -25,7 +25,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.exposure.include=*
-        image: gcr.io/kontinue/raa/tanzu-java-web-app@sha256:fedbcef344a6493ee2709955f891a2e16e8ad9e4ca93761f1b15b104a0f6a0f4
+        image: gcr.io/kontinue/raa/tanzu-java-web-app@sha256:ef71984f5186ae66390fb2fe5a9e1455030551ee90b335cea0db29f08c88d1ba
         name: workload
         resources: {}
         securityContext:
